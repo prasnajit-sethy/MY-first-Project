@@ -1,0 +1,87 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* Center the card */
+.PORTFOLIO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.CARD {
+    background-color: rgba(251, 250, 250, 0.948);
+    width: 420px;
+    padding: 35px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(219, 24, 24, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Profile Image of my */
+.PRASNAJIT {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Name */
+.CARD h1 {
+    font-size: 28px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-line: underline;
+
+}
+
+/* WANT TO BE */
+.CARD h3{
+    color: #6c3df4;
+    font-weight: 500;
+    font-size: x;
+}
+
+/* ABOUT ME */
+.ABOUT {
+    color: #555;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Gmail */
+.GMAIL {
+    text-decoration: underline;
+    color: #1571ea;
+}
+
+/* Button */
+.BTN {
+    background-color: #6c3df4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.BTN:hover {
+    background-color: #5830d6;
+}
